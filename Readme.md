@@ -17,5 +17,35 @@ print("first_half",first_half)
 second_half = t1[half_value: ]
 <br>
 print("second_half",second_half)
-![image](https://github.com/user-attachments/assets/95c458fc-224b-4afb-bcd6-f76b442467ff)
+
+**(b)**
+<br>
+t1=(1,2,5,7,9,2,4,6,8,10)
+<br>
+even_number=tuple(filter(lambda x: x%2==0,t1))
+<br>
+print("tuple with even number",even_number)
+<br>
+**(C)**
+t1=(1,2,5,7,9,2,4,6,8,10)
+<BR>
+t2=(11,13,15)
+<BR>
+concatenation=(t1+t2)
+<BR>
+print("tuple with concatenation", concatenation)
+<BR>
+**(D)**
+t1=(1,2,5,7,9,2,4,6,8,10,11,13,15)
+<BR>
+print("maximum value in t1 is",max(t1))
+<BR>
+print("minimum value in t1 is", min(t1))
+![image](https://github.com/user-attachments/assets/c0beb004-a49e-4a9f-98a2-cb62f66e0f1c)
+![image](https://github.com/user-attachments/assets/d00a4884-618a-46ed-886b-8a6166dc7cc2)
+
+
+
+
+
 
